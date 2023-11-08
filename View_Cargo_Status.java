@@ -39,8 +39,8 @@ public class View_Cargo_Status {
      * Initialize the contents of the frame.
      */
     private void initialize() {
-        frmView = new JFrame("View Cargo Status");
-        frmView.setTitle("View Shipment Status");
+        frmView = new JFrame();
+        frmView.setTitle("View Cargo Status");
         frmView.setBounds(100, 100, 450, 300);
         frmView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frmView.getContentPane().setLayout(null);
