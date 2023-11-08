@@ -59,7 +59,7 @@ public class Supervisor implements ActionListener{
         frame.getContentPane().add(panel);
         panel.setLayout(null);
 
-        JButton View = new JButton("View Assigned Shipments");
+        JButton View = new JButton("View Assigned Cargoes");
         View.setFont(new Font("Tahoma", Font.PLAIN, 13));
         View.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
