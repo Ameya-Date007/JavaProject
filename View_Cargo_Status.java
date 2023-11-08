@@ -45,7 +45,7 @@ public class View_Cargo_Status {
         frmView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frmView.getContentPane().setLayout(null);
 
-        JLabel TabLabel = new JLabel("View Shipment Status");
+        JLabel TabLabel = new JLabel("View Cargo Status");
         TabLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
         TabLabel.setHorizontalAlignment(SwingConstants.CENTER);
         TabLabel.setBounds(120, 21, 189, 33);
