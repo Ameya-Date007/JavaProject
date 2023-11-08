@@ -37,7 +37,7 @@ public class Admin_GUI extends JFrame implements ActionListener {
         frame.getContentPane().setLayout(null);
 
 
-        JButton ViewShipmentButton = new JButton("View Shipment Status");
+        JButton ViewShipmentButton = new JButton("View Cargo Status");
         ViewShipmentButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 View_Cargo_Status vShip = new View_Cargo_Status();
